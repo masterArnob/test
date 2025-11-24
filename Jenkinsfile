@@ -8,7 +8,7 @@ pipeline{
     
     environment{
         SSH_CREDENTIALS = 'my-ssh-private-key'
-        REPOSITORY_URL = 'git@github.com:masterArnob/testing.git'
+        REPOSITORY_URL = 'git@github.com:masterArnob/test.git'
         BRANCH_NAME = 'main'
         APP_NAME = 'testing'
     }
