@@ -1,7 +1,6 @@
 pipeline{
     agent any
     
-// THIS LINE MAKES IT AUTO-RUN (every 30 seconds check)
     triggers {
          githubPush()
     }
